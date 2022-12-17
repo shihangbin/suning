@@ -1,0 +1,1 @@
+export default function prependSlide(e){const o=this,{params:p,$wrapperEl:t,activeIndex:l}=o;p.loop&&o.loopDestroy();let r=l+1;if("object"==typeof e&&"length"in e){for(let o=0;o<e.length;o+=1)e[o]&&t.prepend(e[o]);r=l+e.length}else t.prepend(e);p.loop&&o.loopCreate(),p.observer||o.update(),o.slideTo(r,0,!1)}

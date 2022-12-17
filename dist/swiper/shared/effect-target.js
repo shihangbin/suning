@@ -1,0 +1,1 @@
+export default function effectTarget(i,e){return i.transformEl?e.find(i.transformEl).css({"backface-visibility":"hidden","-webkit-backface-visibility":"hidden"}):e}

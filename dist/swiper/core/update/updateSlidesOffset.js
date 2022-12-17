@@ -1,0 +1,1 @@
+export default function updateSlidesOffset(){const e=this,t=e.slides;for(let f=0;f<t.length;f+=1)t[f].swiperSlideOffset=e.isHorizontal()?t[f].offsetLeft:t[f].offsetTop}

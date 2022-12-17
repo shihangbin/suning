@@ -1,0 +1,5 @@
+import "./libs/css/reset.css"
+import "./libs/iconfont/iconfont.css"
+// import "../public/swiper-bundle.min.css"
+import "./javascripts/index.js"
+import "./scss/index.scss"

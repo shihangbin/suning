@@ -1,0 +1,1 @@
+export default function slideToLoop(o=0,e=this.params.speed,s=!0,t){const l=this;let p=o;return l.params.loop&&(p+=l.loopedSlides),l.slideTo(p,e,s,t)}

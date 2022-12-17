@@ -1,0 +1,1 @@
+export default function setGrabCursor(r){const s=this;if(s.support.touch||!s.params.simulateTouch||s.params.watchOverflow&&s.isLocked||s.params.cssMode)return;const t="container"===s.params.touchEventsTarget?s.el:s.wrapperEl;t.style.cursor="move",t.style.cursor=r?"-webkit-grabbing":"-webkit-grab",t.style.cursor=r?"-moz-grabbin":"-moz-grab",t.style.cursor=r?"grabbing":"grab"}

@@ -1,0 +1,1 @@
+import $ from"./dom.js";export default function createShadow(e,r,d){const s="swiper-slide-shadow"+(d?`-${d}`:""),o=e.transformEl?r.find(e.transformEl):r;let t=o.children(`.${s}`);return t.length||(t=$(`<div class="swiper-slide-shadow${d?`-${d}`:""}"></div>`),o.append(t)),t}

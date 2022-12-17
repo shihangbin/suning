@@ -1,0 +1,1 @@
+import{getDocument}from"ssr-window";export default function createElementIfNotDefined(e,t,n,r){const a=getDocument();return e.params.createElements&&Object.keys(r).forEach((c=>{if(!n[c]&&!0===n.auto){let o=e.$el.children(`.${r[c]}`)[0];o||(o=a.createElement("div"),o.className=r[c],e.$el.append(o)),n[c]=o,t[c]=o}})),n}

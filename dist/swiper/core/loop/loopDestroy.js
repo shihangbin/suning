@@ -1,0 +1,1 @@
+export default function loopDestroy(){const{$wrapperEl:s,params:e,slides:l}=this;s.children(`.${e.slideClass}.${e.slideDuplicateClass},.${e.slideClass}.${e.slideBlankClass}`).remove(),l.removeAttr("data-swiper-slide-index")}

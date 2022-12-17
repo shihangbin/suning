@@ -1,0 +1,1 @@
+export default function appendSlide(e){const o=this,{$wrapperEl:p,params:t}=o;if(t.loop&&o.loopDestroy(),"object"==typeof e&&"length"in e)for(let o=0;o<e.length;o+=1)e[o]&&p.append(e[o]);else p.append(e);t.loop&&o.loopCreate(),t.observer||o.update()}

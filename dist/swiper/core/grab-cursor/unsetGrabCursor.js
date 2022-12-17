@@ -1,0 +1,1 @@
+export default function unsetGrabCursor(){const r=this;r.support.touch||r.params.watchOverflow&&r.isLocked||r.params.cssMode||(r["container"===r.params.touchEventsTarget?"el":"wrapperEl"].style.cursor="")}
