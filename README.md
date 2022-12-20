@@ -1,7 +1,7 @@
 # suning-shihangbin
 
 #### 介绍
-仓库地址：https://gitee.com/coding20_1/suning-shihangbin
+仓库地址：https://github.com/ixiaobin/suning.git
 
 #### 软件架构
 软件架构说明
