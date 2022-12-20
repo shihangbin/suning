@@ -10,7 +10,7 @@
 #### 安装教程
 
 1.  npm i
-2.  npm run serve
+2.  npm run dev
 3.  npm run build
 
 #### 上传
