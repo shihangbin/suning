@@ -9,15 +9,17 @@
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  npm i
+2.  npm run serve
+3.  npm run build
 
-#### 使用说明
+#### 上传
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  git clone https://gitee.com/coding20_1/suning-shihangbin
+2.  git add -A
+3.  git commit -m "注释"
+4.  git pull https://gitee.com/coding20_1/suning-shihangbin
+5.  git push -u origin main
 
 #### 参与贡献
 
