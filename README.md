@@ -17,10 +17,8 @@
 
 #### 上传仓库
 
-1.  git clone https://gitee.com/coding20_1/suning-shihangbin
+1.  git clone https://github.com/ixiaobin/suning.git
 2.  git add -A
 3.  git commit -m "注释"
-4.  git pull https://gitee.com/coding20_1/suning-shihangbin
+4.  git pull https://github.com/ixiaobin/suning.git
 5.  git push -u origin main
-
-
